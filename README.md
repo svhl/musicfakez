@@ -1,10 +1,14 @@
 <h1 align="center">MusicFakez</h1>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e91dce23-f9c0-4131-8096-3e077053d346" width="500")
+</p>
+
 <p align="center">A Python script to fake your music library using MusicBrainz</p>
 
 ## Why?
 
-If you want to share your Unix rice, but don't want others to know your music taste, then this tool is perfect you! Provide an album name and generate empty songs, complete with metadata.
+If you want to showcase your custom CLI music player rice, but don't want others to know your music taste, then this tool is for you! Provide an album name and generate empty songs filled with silence, complete with metadata such artist name, genre, and release year.
 
 **Why not just download the album?**
 
@@ -24,13 +28,10 @@ cd musicfakez
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-```
-
-Set the download path in the `location` variable within the script before executing it.
-
-```bash
 python3 musicfakez.py
 ```
+
+You can change the download path in the `location` variable within the script.
 
 ## License
 
